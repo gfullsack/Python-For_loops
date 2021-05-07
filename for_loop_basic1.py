@@ -1,7 +1,8 @@
 #1 Basic - Print all integers from 0 to 150.
-#for i in range(0,150,1):
-#    print(i)
+for i in range(0, 151, 1):
+    print(i)
     # (coundup from 1 to 150 by 1)
+    # note, end number not inclusive! 
 
 #2 Multiples of Five - Print all the multiples of 5 from 5 to 1,000
 #for i in range(0,1000,5):
@@ -33,10 +34,10 @@
 #6 Flexible Counter - Set three variables: lowNum, highNum, mult. Starting at lowNum and going through highNum, print only
 # the integers that are a multiple of mult. For example, if lowNum=2, highNum=9, and mult=3, the loop should print 3, 6, 9 (on successive lines)
 
-lowNum = 2
-highNum = 9
-mult = 3
-#as the range ends before highNum, we need to add 1 in order for the range to include 9 because the end of the range is NOT inclusive 
-for x in range(lowNum, highNum + 1, 1):
-    if not x % mult:
-        print(x)
+# lowNum = 2
+# highNum = 9
+# mult = 3
+# #as the range ends before highNum, we need to add 1 in order for the range to include 9 because the end of the range is NOT inclusive 
+# for x in range(lowNum, highNum + 1, 1):
+#     if not x % mult:
+#         print(x)
